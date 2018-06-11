@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8"/>
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/ie-detector.js"></script>
+  <script src="js/modernizr.js"></script>
+  <!--[if lte IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
+
+  <!--
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="">
+    <meta name="robots" content="index,follow">
+    <meta name="copyright" content="">
+  -->
+
+
+<body>
+
+<div id="page-wrapper" class="page-wrapper">
+
+<header id="header" class="wrapper header">
+    <div class="top-header">
+        <div class="top-header-item top-header-logo">
+            <a href="index.html">
+                <img src="image/logo.png" alt="">
+            </a>
+        </div>
+        <div class="top-header-item top-header-info">
+            <div class="social-header">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="image/insh.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/fbh.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tel-header">
+                <ul>
+                    <li>
+                        <a href="tel:+74951502232"><span>+7 (495)</span> 150-22-32</a>
+                    </li>
+                    <li>
+                        <a href="tel:+74957767732"><span>+7 (495)</span> 776-77-32</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link-header">
+                <a href="#">Записаться на прием</a>
+            </div>
+        </div>
+    </div>
+    <div class="bot-header">
+        <div class="top-nav-btn top-open"></div>
+        <div class="container">
+            <div class="row">
+                <div class="logo-block">
+                    <a href="index.html">
+                        <img src="image/Logo_small.png" alt="">
+                    </a>
+                </div>
+                <div class="bot-nav">
+                    <ul>
+                        <li>
+                            <a href="about-page.html">О клинике</a>
+                        </li>
+                        <li class="sub-nav">
+                            <a href="service.html" class="service-link">
+                                Услуги
+                                <i class="mdi mdi-chevron-down"></i>
+                            </a>
+                            <a href="service.html" class="sub-nav-link">
+                                Все услуги
+                            </a>
+                            <div class="sub-nav-container">
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Реконструкитивная стоматололгия</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Цифровая стоматология CAD/CAM</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Лазерная стоматология</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Междисциплинарный подход к планированию и лечению</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Дентальная имплантация</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Детская стоматология</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Цифровая стоматология CEREC</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Микроскопия</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Эстетическая стоматология</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Лечение во сне</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Профилактика</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Ортодонтия</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="team-page.html">Команда</a>
+                        </li>
+                        <li>
+                            <a href="price-page.html">Цены</a>
+                        </li>
+                        <li>
+                            <a href="offers-page.html">Акции</a>
+                        </li>
+                        <li>
+                            <a href="news-page.html">Новости и блог</a>
+                        </li>
+                        <li>
+                            <a href="contact-page.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-header">
+                    <a href="#">Записаться на прием</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+  <div id="page-body" class="page-body">
+    <section class="wrapper bread-crumbs">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="service-page.html">Услуги </a>
+          </li>
+          <li>
+            <a href="service-direction-page.html">Лазерная стоматология  </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="wrapper service-top-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="title-section">
+              ЛАЗЕРНОЕ ОТБЕЛИВАНИЕ ЗУБОВ
+            </div>
+            <div class="text-main-section">
+              Лазерное отбеливание зубов является одним из видов кабинетного профессионального отбеливания, который применяется исключительно в условиях клиники и проводится непосредственно врачом.
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="main-image">
+              <img src="image/main-offers-img.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper info-service">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="inf-service-item">
+              <div class="top-info-title">
+                Как проводится данная процедура?
+              </div>
+              <div class="text-main-section">
+                <p>
+                  Лазерное отбеливание зубов является одним из видов кабинетного профессионального отбеливания, который применяется исключительно в условиях клиники и проводится непосредственно врачом. Стоит почитать в Интернете отзывы о лазерном отбеливании, чтобы понять, что оно очень похоже на фотоотбеливание. Сначала на переднюю поверхность зубов наносится специальный отбеливающий гель, а затем врач активирует его при помощи лазерного луча, обрабатывая лазером каждый зуб в течение 1 – 2 минут. В среднем вся процедура занимает около 20 минут, при необходимости через некоторое время ее можно повторить.
+                </p>
+              </div>
+            </div>
+            <div class="inf-service-item">
+              <div class="top-info-title">
+                Чем лазерное отбеливание лучше фотоотбеливания?
+              </div>
+              <div class="text-main-section">
+                <p>
+                  Основным конкурентом лазерного отбеливания зубов является фотоотбеливание. Как видно из названия, их главное различие заключается в катализаторе, который активирует отбеливающий гель. Если при проведении лазерного отбеливания катализатором выступает стоматологический лазер, то при фотоотбеливании действие геля активируется светом галогеновых, светодиодных или же ультрафиолетовых ламп. Однако лазерный луч, в отличие от ультрафиолета, не нагревает ткани зуба, что исключает риск возникновения перегрева или ожога пульпы. И это самое главное! Ткани зуба отбеливаются, но при этом им не наносится никакого вреда.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="inf-service-item">
+              <div class="top-info-title">
+                Насколько эффективно лазерное отбеливание?
+              </div>
+              <div class="text-main-section">
+                <p>
+                  Если говорить об эффективности отбеливания в целом, важно понимать, что под этим подразумевается. Согласно профессиональной терминологии, результативность любой отбеливающей технологии выражается в быстром достижении максимально возможной белизны зубов.
+                </p>
+                <p>
+                  Если сравнивать процедуру фотоотбеливания с отбеливанием лазером, последнее действительно занимает меньше времени. Судите сами: длительность одного сеанса лазерного отбеливания составляет в среднем 10 – 20 минут, в то время как фотоотбеливание занимает около часа – полутора.
+                </p>
+                <p>
+                  Что же касается высоких результатов, то лазерное отбеливание действительно помогает достичь наибольшей белизны, так как излучение лазера имеет плотный направленный лучевой поток, а свет от лампы рассеивается, что замедляет действие отбеливающего геля.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper service-video-wrapper">
+      <div class="container">
+        <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/XGwrcffIy7o" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper info-service">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="inf-service-item">
+              <div class="top-info-title">
+                Безопасно ли лазерное отбеливание?
+              </div>
+              <div class="text-main-section">
+                <p>
+                  Лазер дает врачу возможность подобрать наиболее точные параметры интенсивности и длительности воздействия, а значит, весь процесс становится контролируемым. Именно поэтому лазерное отбеливание считается лучшей из всех существующих систем.
+                </p>
+                <p>
+                  Как уже было сказано выше, лазерный луч, в отличие от света лампы, воздействует локально и импульсно, благодаря чему полностью исключается возможность термического поражения десен и появления какого-либо дискомфорта во время процедуры.
+                </p>
+                <p>
+                  Известно, что при химическом отбеливании применяются гели с высокой концентрацией перекиси водорода. Лазер способствует использованию отбеливающего геля в минимальной концентрации, при этом он максимально быстро проникает в дентин. В результате зубы приобретают белоснежный оттенок, а эмаль не пересушивается, что помогает избежать такого неприятного осложнения, как постоперационная гиперестезия, то есть повышенная чувствительность зубов.
+                </p>
+              </div>
+            </div>
+            <div class="inf-service-item">
+              <div class="top-info-title">
+                Каковы показания и противопоказания к проведению лазерного отбеливания зубов?
+              </div>
+              <div class="text-main-section">
+                <p>
+                  Основным показанием к применению лазерного отбеливания, как, впрочем, и любого другого вида отбеливания, является неэстетичный цвет зубов, в основном – желтоватый оттенок. Дело в том, что эмаль зубов – довольно прозрачная ткань, через нее просвечивает более глубокий слой зуба – дентин, который имеет желтый или желтоватый цвет и темнеет с возрастом. Лазерное отбеливание, как и любое другое, направлено на обесцвечивание дентина. Депигментация этой ткани зуба не является вредной процедурой, однако прежде чем приступить к лазерному отбеливанию зубов, необходимо убедиться в отсутствии противопоказаний.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="inf-service-item">
+              <div class="top-info-title">
+                Абсолютные противопоказания к лазерному отбелианию:
+              </div>
+              <div class="list-page">
+                <ul>
+                  <li>
+                    возраст до 16 лет;
+                  </li>
+                  <li>
+                    период беременности и кормления грудью;
+                  </li>
+                  <li>
+                    аллергия на компоненты отбеливающего геля.
+                  </li>
+                </ul>
+              </div>
+              <div class="text-main-section">
+                <p>
+                  Существуют также относительные противопоказания. Среди них, например, зубы с высокой степенью прозрачности. Их очень трудно отбеливать, потому что они будут давать серый оттенок. Также есть заболевание, которому, к сожалению, очень сильно подвержены именно жители Московской области, — это флюороз. Отбелить такие зубы практически невозможно.
+                </p>
+              </div>
+            </div>
+            <div class="inf-service-item">
+              <div class="top-info-title">
+                Вредно ли лазерное отбеливание зубов?
+              </div>
+              <div class="text-main-section">
+                <p>
+                  Читая отзывы о лазерном отбеливании, довольно часто можно встретить вопросы пациентов о вреде отбеливания. На сегодняшний день можно с уверенностью сказать, что при должной подготовке к процедуре, отсутствии у пациента каких-либо противопоказаний и соблюдении врачом всех правил и норм лазерное отбеливание является абсолютно безопасным. Оно не наносит никакого вреда эмали, даже наоборот, эмаль после лазерного отбеливания уплотняется примерно на 35%, и этот факт научно доказан.
+                </p>
+                <p>
+                  Однако дабы наверняка избежать каких-либо неприятных ощущений во время процедуры, рекомендуется на подготовительном этапе пройти реминерализирующую терапию, а если вы замечаете за собой периодические приступы обострения чувствительности зубов, использовать специальные гели-десенсетайзеры
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper direction-gallery">
+      <div class="container">
+        <div class="direction-slider">
+          <div class="slide">
+            <a href="image/d-g-b-1.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-1.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/d-g-b-2.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-2.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/d-g-b-3.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-3.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/d-g-b-4.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-4.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/d-g-b-1.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-1.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/d-g-b-2.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-2.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/d-g-b-3.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-3.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/d-g-b-4.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/d-g-4.jpg"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper price-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-5 col-md-push-6 price-wrap">
+            <div class="title-section">
+              Цены по направлению
+            </div>
+            <div class="main-image">
+              <img src="image/price-img.png" alt="">
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6 col-md-pull-5 price-wrap">
+            <div class="price-table">
+              <table>
+                <thead>
+                <tr>
+                  <td>Наименование работы</td>
+                  <td>Цена, руб</td>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                  <td>Консультация врача-стоматолога</td>
+                  <td>Бесплатно</td>
+                </tr>
+                <tr>
+                  <td>Рг-снимок (прицельный)</td>
+                  <td>400</td>
+                </tr>
+                <tr>
+                  <td>Аппликационная анестезия</td>
+                  <td>200</td>
+                </tr>
+                <tr>
+                  <td>Инфильтрационная анестезия</td>
+                  <td>450</td>
+                </tr>
+                <tr>
+                  <td>Проводниковая анестезия</td>
+                  <td>500</td>
+                </tr>
+                <tr>
+                  <td>Наложение временной пломбы</td>
+                  <td>9</td>
+                </tr>
+                <tr>
+                  <td>Пломба химического отверждения</td>
+                  <td>1150</td>
+                </tr>
+                <tr>
+                  <td>Установка внутриканального штифта </td>
+                  <td>600</td>
+                </tr>
+                <tr>
+                  <td>Проводниковая анестезия</td>
+                  <td>500</td>
+                </tr>
+                <tr>
+                  <td>Инфильтрационная анестезия</td>
+                  <td>450</td>
+                </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper direction-team-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="title-section">
+              Врачи по направлению
+            </div>
+            <div class="main-image">
+              <img src="image/main-team-img.png" alt="">
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="main-team-slider wow fadeInRight">
+              <div class="slide">
+                <div class="team-item">
+                  <div class="image-block">
+                    <img src="image/team-1.jpg" alt="">
+                  </div>
+                  <div class="info-block">
+                    <div class="title-block">
+                      <a href="person-page.html">Дмитрий Смирнов</a>
+                    </div>
+                    <div class="text-block">
+                      к.м.н. Главный врач
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="team-item">
+                  <div class="image-block">
+                    <img src="image/team-2.jpg" alt="">
+                  </div>
+                  <div class="info-block">
+                    <div class="title-block">
+                      <a href="person-page.html">Екатерина Смирнова</a>
+                    </div>
+                    <div class="text-block">
+                      к.м.н. Врач эстетической стоматологии
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="team-item">
+                  <div class="image-block">
+                    <img src="image/team-1.jpg" alt="">
+                  </div>
+                  <div class="info-block">
+                    <div class="title-block">
+                      <a href="person-page.html">Дмитрий Смирнов</a>
+                    </div>
+                    <div class="text-block">
+                      к.м.н. Главный врач
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="team-item">
+                  <div class="image-block">
+                    <img src="image/team-2.jpg" alt="">
+                  </div>
+                  <div class="info-block">
+                    <div class="title-block">
+                      <a href="person-page.html">Екатерина Смирнова</a>
+                    </div>
+                    <div class="text-block">
+                      к.м.н. Врач эстетической стоматологии
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper main-call-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="title-section">
+              Записаться на прием
+            </div>
+            <div class="main-image wow fadeInRight">
+              <img src="image/main-call-img.png" alt="">
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="main-call-form">
+              <form action="#">
+                <div class="call-form-item">
+                  <label for="main-call-name">Ваше Имя</label>
+                  <input type="text" id="main-call-name" placeholder="Александр">
+                </div>
+                <div class="call-form-item">
+                  <label for="main-call-tel">Ваш номер телефона</label>
+                  <input type="tel" id="main-call-tel" placeholder="+7 495 150-22-32">
+                </div>
+                <label for="main-sub" class="orange-sub">
+                  <input type="submit" id="main-sub" value="Записаться">
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<footer id="footer" class="wrapper footer">
+    <div class="call-btn">
+        <button class="btn-tell">
+            <span class="inf-btn">Перезвоните мне</span>
+            <i class="mdi mdi-phone-outgoing"></i>
+        </button>
+        <button class="btn-mes">
+            <span class="inf-btn">Консультация онлайн</span>
+            <i class="mdi mdi-comment-account-outline"></i>
+        </button>
+        <button class="btn-mes btn-pen">
+            <i class="mdi mdi-pencil"></i>
+        </button>
+    </div>
+    <div class="scroll-to-top">
+        <i class="mdi mdi-arrow-up"></i>
+    </div>
+  <div class="top-footer">
+      <div class="row">
+          <div class="top-footer-item top-footer-map col-xs-12 col-md-9 col-md-push-3">
+              <div id="map">
+                  <script type="text/javascript">
+                      ymaps.ready(init);
+                      var myMap,
+                          myPlacemark;
+                      function init(){
+                          myMap = new ymaps.Map("map", {
+                              center: [55.72517067, 37.56206300],
+                              zoom: 16
+                          });
+                          var myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                              balloonContentBody: [
+                                  '<address>',
+                                  '<a href="index.html"><img src="image/map-logo.png" alt=""></a>',
+                                  '<br/>',
+                                  '<span>ул. Усачева, 62, стр. 1,</span>',
+                                  '<br/>',
+                                  '<span>в здании «Делового Центра»</span>',
+                                  '</address>'
+                              ].join('')
+                          }, {
+                              preset: 'islands#redDotIcon',
+                              iconLayout: 'default#image',
+                              iconImageHref: 'image/marker.png',
+                              iconImageSize: [40, 51],
+                              iconImageOffset: [-20, -47]
+                          });
+
+                          myMap.geoObjects.add(myPlacemark);
+                      }
+                  </script>
+              </div>
+          </div>
+          <div class="top-footer-item top-footer-info col-xs-12 col-md-3 col-md-pull-9">
+              <div class="logo-footer">
+                  <a href="index.html">
+                      <img src="image/footer-logo.png" alt="">
+                  </a>
+              </div>
+              <div class="footer-info">
+                  <ul>
+                      <li>
+                          г. Москва <br>
+                          ул. Усачева, 62, стр. 1,<br>
+                          в здании «Делового Центра»
+                      </li>
+                      <li>
+                          Метро Спортивная
+                      </li>
+                      <li>
+                          <a href="tel:+74951502232"><span>+7 (495)</span> 150-22-32</a>
+                          <a href="tel:+74957767732"><span>+7 (495)</span> 776-77-32</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="bot-footer">
+        <div class="col-xs-12 col-md-3 social-footer">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src=image/sif.png alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/sff.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-md-9 copy-footer">
+                © 2017 Studia32.  Все права защищены   |   Created by ПоискПро
+        </div>
+    </div>
+</footer>
+<div class="popup-wrap popup-mes">
+    <div class="popup-container">
+        <div class="popup-item">
+            <div class="popup-close">
+                <i class="mdi mdi-close"></i>
+            </div>
+            <div class="popup-item-info">
+                <div class="title-section">Записаться на прием</div>
+            </div>
+            <div class="popup-item-form">
+                <div class="title-section">Записаться на прием</div>
+                <form action="#">
+                    <div class="call-form-item">
+                        <label for="main-mes-name">Ваше Имя</label>
+                        <input type="text" id="main-mes-name" placeholder="Александр">
+                    </div>
+                    <div class="call-form-item">
+                        <label for="main-mes-mail">Ваш номер телефона</label>
+                        <input type="tel" id="main-mes-mail" placeholder="+7 495 150">
+                    </div>
+                    <label for="main-mes-sub" class="orange-sub">
+                        <input type="submit" id="main-mes-sub" value="Записаться">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+</div>
+<div class="popup-wrap popup-tel">
+    <div class="popup-container">
+        <div class="popup-item">
+            <div class="popup-close">
+                <i class="mdi mdi-close"></i>
+            </div>
+            <div class="popup-item-info">
+                <div class="title-section">Перезвоните мне</div>
+            </div>
+            <div class="popup-item-form">
+                <div class="title-section">Перезвоните мне</div>
+                <form action="#">
+                    <div class="call-form-item">
+                        <label for="main-tel-name">Ваше Имя</label>
+                        <input type="text" id="main-tel-name" placeholder="Александр">
+                    </div>
+                    <div class="call-form-item">
+                        <label for="main-tel-mail">Ваш номер телефона</label>
+                        <input type="tel" id="main-tel-mail" placeholder="+7 495 150">
+                    </div>
+                    <label for="main-tel-sub" class="orange-sub">
+                        <input type="submit" id="main-tel-sub" value="Записаться">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+</div>
+
+
+
+
+</div>
+
+
+<!-- scripts
+___________________________________________________________________________-->
+<script src="js/libs.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8"/>
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/ie-detector.js"></script>
+  <script src="js/modernizr.js"></script>
+  <!--[if lte IE 9]><meta http-equiv="X-UA-Compatible" content="IE=edge"/><![endif]-->
+
+  <!--
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+    <meta name="author" content="">
+    <meta name="robots" content="index,follow">
+    <meta name="copyright" content="">
+  -->
+
+
+<body>
+
+<div id="page-wrapper" class="page-wrapper">
+
+<header id="header" class="wrapper header">
+    <div class="top-header">
+        <div class="top-header-item top-header-logo">
+            <a href="index.html">
+                <img src="image/logo.png" alt="">
+            </a>
+        </div>
+        <div class="top-header-item top-header-info">
+            <div class="social-header">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="image/insh.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="image/fbh.png" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tel-header">
+                <ul>
+                    <li>
+                        <a href="tel:+74951502232"><span>+7 (495)</span> 150-22-32</a>
+                    </li>
+                    <li>
+                        <a href="tel:+74957767732"><span>+7 (495)</span> 776-77-32</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="link-header">
+                <a href="#">Записаться на прием</a>
+            </div>
+        </div>
+    </div>
+    <div class="bot-header">
+        <div class="top-nav-btn top-open"></div>
+        <div class="container">
+            <div class="row">
+                <div class="logo-block">
+                    <a href="index.html">
+                        <img src="image/Logo_small.png" alt="">
+                    </a>
+                </div>
+                <div class="bot-nav">
+                    <ul>
+                        <li>
+                            <a href="about-page.html">О клинике</a>
+                        </li>
+                        <li class="sub-nav">
+                            <a href="service.html" class="service-link">
+                                Услуги
+                                <i class="mdi mdi-chevron-down"></i>
+                            </a>
+                            <a href="service.html" class="sub-nav-link">
+                                Все услуги
+                            </a>
+                            <div class="sub-nav-container">
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Реконструкитивная стоматололгия</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Цифровая стоматология CAD/CAM</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Лазерная стоматология</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Междисциплинарный подход к планированию и лечению</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Дентальная имплантация</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Детская стоматология</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Цифровая стоматология CEREC</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Микроскопия</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Эстетическая стоматология</a>
+                                    </li>
+                                </ul>
+                                <ul>
+                                    <li>
+                                        <a href="service-direction-page.html">Лечение во сне</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Профилактика</a>
+                                    </li>
+                                    <li>
+                                        <a href="service-direction-page.html">Ортодонтия</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="team-page.html">Команда</a>
+                        </li>
+                        <li>
+                            <a href="price-page.html">Цены</a>
+                        </li>
+                        <li>
+                            <a href="offers-page.html">Акции</a>
+                        </li>
+                        <li>
+                            <a href="news-page.html">Новости и блог</a>
+                        </li>
+                        <li>
+                            <a href="contact-page.html">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="link-header">
+                    <a href="#">Записаться на прием</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+  <div id="page-body" class="page-body team-page">
+    <section class="wrapper bread-crumbs">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="team-page.html">Врачи </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="wrapper person-info-wrapper">
+      <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-sm-push-6 col-md-push-8 col-md-4">
+              <div class="main-image">
+                <img src="image/person-1.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-6 col-sm-pull-6 col-md-pull-4 col-md-8">
+              <div class="team-info-wrap">
+                <div class="title-section">
+                  Екатерина Смирнова
+                </div>
+                <div class="info-person">
+                  <div class="title-block">
+                    Врач эстетической стоматологии
+                  </div>
+                  <div class="title-text">
+                    Кандидат Медицинских Наук
+                  </div>
+                  <div class="experience-block">
+                    Стаж работы 10 лет
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section class="wrapper eduction-wrapper">
+      <div class="container">
+        <div class="title-block">ОБРАЗОВАНИЕ</div>
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="text-main-section">
+              <p>
+                В 1988 году окончила Киевский медицинский институт им. академика А.А.Богомольца по специальности «Стоматология»;
+              </p>
+              <p>
+                В 1989 году - интернатуру на базе Дальневосточного Государственного медицинского университета в ЦРБ г.Большой Камень (Приморский край);
+              </p>
+              <p>
+                1989-1998 г.г. – врач-стоматолог Краевой стоматологической поликлиники (г. Владивосток);
+              </p>
+              <p>
+                С 1999 года врач - стоматолог-терапевт частных клиник г.Москвы (клиника «ТДС», стоматологический центр «На Тверской», «СМ-клиника»), заслуженно пользуется репутацией "хороший стоматолог";
+              </p>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="text-main-section">
+              <p>
+                В 2005 г. заняла III -е место в Чемпионате стоматологического мастерства России в номинации «Диагностика в стоматологии»;
+                Регулярно повышает квалификацию на тематических курсах, осваивает инновационные методы лечения в терапевтической стоматологии.
+              </p>
+              <p>
+                С 2006 года врач - стоматолог-терапевт частной клиники персональной стоматологии г.Москвы Studio 32, заслуженно пользуется репутацией "хороший стоматолог".
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper certificate-wrapper">
+      <div class="container">
+        <div class="title-block">
+          СЕРТИФИКАТЫ И ДИПЛОМЫ
+        </div>
+        <div class="certificate-slider">
+          <div class="slide">
+            <a href="image/certificate-1.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-1.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-2.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-2.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-3.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-3.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-4.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-4.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-5.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-5.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-6.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-6.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-1.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-1.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-2.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-2.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-3.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-3.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-4.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-4.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-5.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-5.jpg"></a>
+          </div>
+          <div class="slide">
+            <a href="image/certificate-6.jpg" class="fancybox" rel="gallery" tabindex="0"><img src="image/certificate-6.jpg"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="wrapper post-pagination">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="person-page.html"><i class="mdi mdi-arrow-left"></i></a>
+          </li>
+          <li>
+            <a href="team-page.html">Все врачи</a>
+          </li>
+          <li>
+            <a href="person-page.html"><i class="mdi mdi-arrow-right"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="wrapper main-call-wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="title-section">
+              Записаться на прием
+            </div>
+            <div class="main-image">
+              <img src="image/main-call-img.png" alt="">
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <div class="main-call-form">
+              <form action="#">
+                <div class="call-form-item">
+                  <label for="main-call-name">Ваше Имя</label>
+                  <input type="text" id="main-call-name" placeholder="Александр">
+                </div>
+                <div class="call-form-item">
+                  <label for="main-call-tel">Ваш номер телефона</label>
+                  <input type="tel" id="main-call-tel" placeholder="+7 495 150-22-32">
+                </div>
+                <label for="main-sub" class="orange-sub">
+                  <input type="submit" id="main-sub" value="Записаться">
+                </label>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<footer id="footer" class="wrapper footer">
+    <div class="call-btn">
+        <button class="btn-tell">
+            <span class="inf-btn">Перезвоните мне</span>
+            <i class="mdi mdi-phone-outgoing"></i>
+        </button>
+        <button class="btn-mes">
+            <span class="inf-btn">Консультация онлайн</span>
+            <i class="mdi mdi-comment-account-outline"></i>
+        </button>
+        <button class="btn-mes btn-pen">
+            <i class="mdi mdi-pencil"></i>
+        </button>
+    </div>
+    <div class="scroll-to-top">
+        <i class="mdi mdi-arrow-up"></i>
+    </div>
+  <div class="top-footer">
+      <div class="row">
+          <div class="top-footer-item top-footer-map col-xs-12 col-md-9 col-md-push-3">
+              <div id="map">
+                  <script type="text/javascript">
+                      ymaps.ready(init);
+                      var myMap,
+                          myPlacemark;
+                      function init(){
+                          myMap = new ymaps.Map("map", {
+                              center: [55.72517067, 37.56206300],
+                              zoom: 16
+                          });
+                          var myPlacemark = new ymaps.Placemark(myMap.getCenter(), {
+                              balloonContentBody: [
+                                  '<address>',
+                                  '<a href="index.html"><img src="image/map-logo.png" alt=""></a>',
+                                  '<br/>',
+                                  '<span>ул. Усачева, 62, стр. 1,</span>',
+                                  '<br/>',
+                                  '<span>в здании «Делового Центра»</span>',
+                                  '</address>'
+                              ].join('')
+                          }, {
+                              preset: 'islands#redDotIcon',
+                              iconLayout: 'default#image',
+                              iconImageHref: 'image/marker.png',
+                              iconImageSize: [40, 51],
+                              iconImageOffset: [-20, -47]
+                          });
+
+                          myMap.geoObjects.add(myPlacemark);
+                      }
+                  </script>
+              </div>
+          </div>
+          <div class="top-footer-item top-footer-info col-xs-12 col-md-3 col-md-pull-9">
+              <div class="logo-footer">
+                  <a href="index.html">
+                      <img src="image/footer-logo.png" alt="">
+                  </a>
+              </div>
+              <div class="footer-info">
+                  <ul>
+                      <li>
+                          г. Москва <br>
+                          ул. Усачева, 62, стр. 1,<br>
+                          в здании «Делового Центра»
+                      </li>
+                      <li>
+                          Метро Спортивная
+                      </li>
+                      <li>
+                          <a href="tel:+74951502232"><span>+7 (495)</span> 150-22-32</a>
+                          <a href="tel:+74957767732"><span>+7 (495)</span> 776-77-32</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="bot-footer">
+        <div class="col-xs-12 col-md-3 social-footer">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src=image/sif.png alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="image/sff.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-12 col-md-9 copy-footer">
+                © 2017 Studia32.  Все права защищены   |   Created by ПоискПро
+        </div>
+    </div>
+</footer>
+<div class="popup-wrap popup-mes">
+    <div class="popup-container">
+        <div class="popup-item">
+            <div class="popup-close">
+                <i class="mdi mdi-close"></i>
+            </div>
+            <div class="popup-item-info">
+                <div class="title-section">Записаться на прием</div>
+            </div>
+            <div class="popup-item-form">
+                <div class="title-section">Записаться на прием</div>
+                <form action="#">
+                    <div class="call-form-item">
+                        <label for="main-mes-name">Ваше Имя</label>
+                        <input type="text" id="main-mes-name" placeholder="Александр">
+                    </div>
+                    <div class="call-form-item">
+                        <label for="main-mes-mail">Ваш номер телефона</label>
+                        <input type="tel" id="main-mes-mail" placeholder="+7 495 150">
+                    </div>
+                    <label for="main-mes-sub" class="orange-sub">
+                        <input type="submit" id="main-mes-sub" value="Записаться">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+</div>
+<div class="popup-wrap popup-tel">
+    <div class="popup-container">
+        <div class="popup-item">
+            <div class="popup-close">
+                <i class="mdi mdi-close"></i>
+            </div>
+            <div class="popup-item-info">
+                <div class="title-section">Перезвоните мне</div>
+            </div>
+            <div class="popup-item-form">
+                <div class="title-section">Перезвоните мне</div>
+                <form action="#">
+                    <div class="call-form-item">
+                        <label for="main-tel-name">Ваше Имя</label>
+                        <input type="text" id="main-tel-name" placeholder="Александр">
+                    </div>
+                    <div class="call-form-item">
+                        <label for="main-tel-mail">Ваш номер телефона</label>
+                        <input type="tel" id="main-tel-mail" placeholder="+7 495 150">
+                    </div>
+                    <label for="main-tel-sub" class="orange-sub">
+                        <input type="submit" id="main-tel-sub" value="Записаться">
+                    </label>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
+</div>
+
+
+
+
+</div>
+
+
+<!-- scripts
+___________________________________________________________________________-->
+<script src="js/libs.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
